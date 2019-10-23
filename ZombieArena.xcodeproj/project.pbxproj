@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2181D1421AD464500E10705 /* bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2181D1221AD464500E10705 /* bullet.cpp */; };
+		B2832E4021B681B60020CAB8 /* pickup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2832E3E21B681B60020CAB8 /* pickup.cpp */; };
+		B28FBCEF2191A665002DE32B /* createBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28FBCEE2191A665002DE32B /* createBackground.cpp */; };
+		B2C2126F219ADD9600D062BA /* textureHolder.hpp in Sources */ = {isa = PBXBuildFile; fileRef = B2C2126E219ADD9600D062BA /* textureHolder.hpp */; };
+		B2C21271219ADF1F00D062BA /* textureHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2C21270219ADF1F00D062BA /* textureHolder.cpp */; };
+		B2DD27D321A40B8E00E3D5F8 /* zombie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2DD27D121A40B8E00E3D5F8 /* zombie.cpp */; };
+		B2DD27D521A417C900E3D5F8 /* zombieHorde.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2DD27D421A417C900E3D5F8 /* zombieHorde.cpp */; };
+		B2FF60E62175D931009851C1 /* zombieArena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2FF60E52175D931009851C1 /* zombieArena.cpp */; };
+		B2FF60F42175DC9B009851C1 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF60EE2175DC9B009851C1 /* sfml-audio.framework */; };
+		B2FF60F52175DC9B009851C1 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF60EF2175DC9B009851C1 /* sfml-system.framework */; };
+		B2FF60F62175DC9B009851C1 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF60F02175DC9B009851C1 /* sfml-graphics.framework */; };
+		B2FF60F72175DC9B009851C1 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF60F12175DC9B009851C1 /* sfml-window.framework */; };
+		B2FF60F82175DC9B009851C1 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF60F22175DC9B009851C1 /* SFML.framework */; };
+		B2FF60F92175DC9B009851C1 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FF60F32175DC9B009851C1 /* sfml-network.framework */; };
+		B2FF60FC2175DF34009851C1 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2FF60FA2175DF34009851C1 /* Player.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2FF60E02175D931009851C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2181D1221AD464500E10705 /* bullet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bullet.cpp; sourceTree = "<group>"; };
+		B2181D1321AD464500E10705 /* bullet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bullet.hpp; sourceTree = "<group>"; };
+		B27422BA219C636800E07263 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		B27422BB219C636800E07263 /* graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = graphics; sourceTree = "<group>"; };
+		B27422BC219C636800E07263 /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sound; sourceTree = "<group>"; };
+		B2832E3E21B681B60020CAB8 /* pickup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pickup.cpp; sourceTree = "<group>"; };
+		B2832E3F21B681B60020CAB8 /* pickup.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pickup.hpp; sourceTree = "<group>"; };
+		B28FBCED2191A4A5002DE32B /* zombieArena.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zombieArena.h; sourceTree = "<group>"; };
+		B28FBCEE2191A665002DE32B /* createBackground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = createBackground.cpp; sourceTree = "<group>"; };
+		B2C2126E219ADD9600D062BA /* textureHolder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = textureHolder.hpp; sourceTree = "<group>"; };
+		B2C21270219ADF1F00D062BA /* textureHolder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = textureHolder.cpp; sourceTree = "<group>"; };
+		B2DD27D121A40B8E00E3D5F8 /* zombie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zombie.cpp; sourceTree = "<group>"; };
+		B2DD27D221A40B8E00E3D5F8 /* zombie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = zombie.hpp; sourceTree = "<group>"; };
+		B2DD27D421A417C900E3D5F8 /* zombieHorde.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zombieHorde.cpp; sourceTree = "<group>"; };
+		B2FF60E22175D931009851C1 /* ZombieArena */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZombieArena; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FF60E52175D931009851C1 /* zombieArena.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zombieArena.cpp; sourceTree = "<group>"; };
+		B2FF60EE2175DC9B009851C1 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		B2FF60EF2175DC9B009851C1 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		B2FF60F02175DC9B009851C1 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		B2FF60F12175DC9B009851C1 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		B2FF60F22175DC9B009851C1 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		B2FF60F32175DC9B009851C1 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		B2FF60FA2175DF34009851C1 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		B2FF60FB2175DF34009851C1 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2FF60DF2175D931009851C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FF60F42175DC9B009851C1 /* sfml-audio.framework in Frameworks */,
+				B2FF60F52175DC9B009851C1 /* sfml-system.framework in Frameworks */,
+				B2FF60F62175DC9B009851C1 /* sfml-graphics.framework in Frameworks */,
+				B2FF60F72175DC9B009851C1 /* sfml-window.framework in Frameworks */,
+				B2FF60F82175DC9B009851C1 /* SFML.framework in Frameworks */,
+				B2FF60F92175DC9B009851C1 /* sfml-network.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B27422B9219C634E00E07263 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B27422BA219C636800E07263 /* fonts */,
+				B27422BB219C636800E07263 /* graphics */,
+				B27422BC219C636800E07263 /* sound */,
+			);
+			name = Resources;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B2FF60D92175D930009851C1 = {
+			isa = PBXGroup;
+			children = (
+				B27422B9219C634E00E07263 /* Resources */,
+				B2FF60E42175D931009851C1 /* ZombieArena */,
+				B2FF60E32175D931009851C1 /* Products */,
+				B2FF60ED2175DC9B009851C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2FF60E32175D931009851C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF60E22175D931009851C1 /* ZombieArena */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2FF60E42175D931009851C1 /* ZombieArena */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF60E52175D931009851C1 /* zombieArena.cpp */,
+				B2FF60FA2175DF34009851C1 /* Player.cpp */,
+				B2FF60FB2175DF34009851C1 /* Player.hpp */,
+				B28FBCED2191A4A5002DE32B /* zombieArena.h */,
+				B28FBCEE2191A665002DE32B /* createBackground.cpp */,
+				B2C2126E219ADD9600D062BA /* textureHolder.hpp */,
+				B2C21270219ADF1F00D062BA /* textureHolder.cpp */,
+				B2DD27D121A40B8E00E3D5F8 /* zombie.cpp */,
+				B2DD27D221A40B8E00E3D5F8 /* zombie.hpp */,
+				B2DD27D421A417C900E3D5F8 /* zombieHorde.cpp */,
+				B2181D1221AD464500E10705 /* bullet.cpp */,
+				B2181D1321AD464500E10705 /* bullet.hpp */,
+				B2832E3E21B681B60020CAB8 /* pickup.cpp */,
+				B2832E3F21B681B60020CAB8 /* pickup.hpp */,
+			);
+			path = ZombieArena;
+			sourceTree = "<group>";
+		};
+		B2FF60ED2175DC9B009851C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF60EE2175DC9B009851C1 /* sfml-audio.framework */,
+				B2FF60F02175DC9B009851C1 /* sfml-graphics.framework */,
+				B2FF60F32175DC9B009851C1 /* sfml-network.framework */,
+				B2FF60EF2175DC9B009851C1 /* sfml-system.framework */,
+				B2FF60F12175DC9B009851C1 /* sfml-window.framework */,
+				B2FF60F22175DC9B009851C1 /* SFML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2FF60E12175D931009851C1 /* ZombieArena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FF60E92175D931009851C1 /* Build configuration list for PBXNativeTarget "ZombieArena" */;
+			buildPhases = (
+				B2FF60DE2175D931009851C1 /* Sources */,
+				B2FF60DF2175D931009851C1 /* Frameworks */,
+				B2FF60E02175D931009851C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZombieArena;
+			productName = ZombieArena;
+			productReference = B2FF60E22175D931009851C1 /* ZombieArena */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2FF60DA2175D930009851C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = 20074556;
+				TargetAttributes = {
+					B2FF60E12175D931009851C1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B2FF60DD2175D931009851C1 /* Build configuration list for PBXProject "ZombieArena" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2FF60D92175D930009851C1;
+			productRefGroup = B2FF60E32175D931009851C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2FF60E12175D931009851C1 /* ZombieArena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2FF60DE2175D931009851C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FF60FC2175DF34009851C1 /* Player.cpp in Sources */,
+				B2C2126F219ADD9600D062BA /* textureHolder.hpp in Sources */,
+				B2FF60E62175D931009851C1 /* zombieArena.cpp in Sources */,
+				B2181D1421AD464500E10705 /* bullet.cpp in Sources */,
+				B2DD27D521A417C900E3D5F8 /* zombieHorde.cpp in Sources */,
+				B2DD27D321A40B8E00E3D5F8 /* zombie.cpp in Sources */,
+				B2832E4021B681B60020CAB8 /* pickup.cpp in Sources */,
+				B28FBCEF2191A665002DE32B /* createBackground.cpp in Sources */,
+				B2C21271219ADF1F00D062BA /* textureHolder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2FF60E72175D931009851C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2FF60E82175D931009851C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2FF60EA2175D931009851C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2FF60EB2175D931009851C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2FF60DD2175D931009851C1 /* Build configuration list for PBXProject "ZombieArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FF60E72175D931009851C1 /* Debug */,
+				B2FF60E82175D931009851C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FF60E92175D931009851C1 /* Build configuration list for PBXNativeTarget "ZombieArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FF60EA2175D931009851C1 /* Debug */,
+				B2FF60EB2175D931009851C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2FF60DA2175D930009851C1 /* Project object */;
+}
